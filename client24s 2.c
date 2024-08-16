@@ -7,7 +7,7 @@
 #include <sys/types.h>
 #include <netinet/in.h>
 
-#define PORT 8125
+#define PORT 8126
 #define BUF_SIZE 1024
 
 void handleFileUplds(int clntSockt, const char *nameOfFls, const char *destPaths);
